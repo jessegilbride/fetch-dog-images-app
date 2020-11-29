@@ -1,0 +1,34 @@
+* {
+  box-sizing: border-box;
+}
+
+:root {
+  --max-size: 600px;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+form {
+  margin-bottom: 2rem;
+}
+
+.container {
+  max-width: var(--max-size);
+  margin: 0 auto;
+}
+
+/* .hidden {
+  display: none;
+} */
+
+
+.results-img {
+  width: 190px;
+  padding: 5px;
+}
+
+.breedResult-img {
+  max-width: var(--max-size);
+}
